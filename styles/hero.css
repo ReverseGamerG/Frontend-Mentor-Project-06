@@ -1,0 +1,73 @@
+#principal{
+  background-color: var(--purple900);
+  margin-bottom: 161px;
+}
+
+#hero{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 56px 80px 296px;
+}
+
+#ilustrations > img {
+  width: 767px;
+  height: 441px;
+  margin-top: 88px;
+  position: absolute;
+  left: 25%;
+  top: 50%;
+  transform: translateY(10%);
+}
+
+#firstframe{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+#firstframe h1{
+  font: var(--text-p1);
+  color: var(--text-color);
+  u{
+    text-decoration-color: var(--green);
+    text-decoration-thickness: 3px;
+    text-underline-offset: 9px;
+  }
+}
+
+#firstframe a{
+  font: var(--text-p5);
+  text-decoration: none;
+  color: var(--purple900);
+  background: var(--green);
+  padding: 12px 32px;
+  border: 2px solid var(--green);
+  transition: background .8s;
+}
+
+#firstframe a:hover{
+  font: var(--text-p5);
+  background: none;
+  text-decoration: none;
+  color: var(--green);
+  border: 2px solid var(--green);
+  padding: 12px 32px;
+}
+
+#ilustrations{
+  background-color: var(--purple100);
+}
+
+#ornamental{
+ height: 72px;
+ width: 100vw;
+ position: relative;
+ top: 296px;
+ background-image: url(../assets/images/ornamental.svg);
+ background-repeat: no-repeat;
+ background-size: cover;
+}

@@ -1,0 +1,23 @@
+nav{
+  background-color: var(--purple900);
+  padding: 56px 0 0;
+}
+
+#header{
+  display: flex;
+  justify-content: space-between;
+  margin: 0 160px;
+}
+
+#header a{
+  font: var(--text-p5);
+  color:var(--text-color);
+  transition: color 0.5s;
+  text-decoration-color: var(--green);
+  text-decoration-thickness: 2px;
+  text-underline-offset: 9px;
+}
+
+#header a:hover{
+  color: var(--green);
+}
