@@ -1,0 +1,57 @@
+#cta{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 112px 160px 0;
+  position: relative;
+}
+
+#cta_content{
+  display: flex;
+  flex-direction: row;
+}
+
+#cta_content > img{
+  height: 477px;
+  margin-bottom: 102px;
+}
+
+#cta_words{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 32px;
+  padding: 64px;
+  width: max-content;
+  background-color: var(--purple900);
+  font: var(--text-p4);
+  margin-top: 168px;
+  position: relative;
+  right: 85px;
+}
+
+#cta_words h1{
+  font: var(--text-p2);
+  color: var(--text-color);
+}
+
+#cta_words p{
+  font: var(--text-p4);
+  color:  var(--text-color);
+}
+
+#cta_words a{
+  font: var(--text-p5);
+  color: var(--purple900);
+  background-color: var(--green);
+  border: 2px solid var(--green);
+  padding: 12px 32px;
+  text-decoration: none;
+  transition: background .8s;
+}
+
+#cta_words a:hover{
+  border: 2px solid var(--green);
+  color: var(--green);
+  background: none;
+}
