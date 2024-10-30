@@ -1,17 +1,18 @@
 #principal{
-  background-color: var(--purple900);
-  margin-bottom: 161px;
+  background-color: var(--purple100);
+  padding-bottom: 161px;
 }
 
 #hero{
   display: flex;
+  background-color: var(--purple900);
   flex-direction: column;
   justify-content: center;
   align-items: center;
   padding: 56px 80px 296px;
 }
 
-#ilustrations > img {
+#principal img {
   width: 767px;
   height: 441px;
   margin-top: 88px;
