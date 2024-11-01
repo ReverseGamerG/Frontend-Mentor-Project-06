@@ -12,6 +12,23 @@
   padding: 56px 80px 296px;
 }
 
+#principal img:last-child{
+  width: 141.7px;
+  position: absolute;
+  margin: 0;
+  left: 90.5%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#principal img + img{
+  width: 400px;
+  margin: 0;
+  position: absolute;
+  top:5%;
+  transform: translateX(-122.5%);
+}
+
 #principal img {
   width: 767px;
   height: 441px;
