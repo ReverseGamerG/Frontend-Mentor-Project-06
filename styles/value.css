@@ -1,6 +1,6 @@
 #value{
   display: grid;
-  grid-template-columns: repeat(3, 33%);
+  grid-template-columns: repeat(3, 1fr);
   background: var(--purple100);
   padding: 88px 160px 144px;
   gap: 32px;
