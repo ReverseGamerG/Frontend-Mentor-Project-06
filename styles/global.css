@@ -1,0 +1,32 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  width: 100%;
+  overflow-x: hidden;
+  background-color: var(--text-color);
+}
+
+#page{
+  width: 100%;
+}
+
+:root{
+  --green: #44FFA1;
+  --purple900: #24053E;
+  --purple500: #584D62;
+  --purple100: #FCF8FF;
+  --text-color: #ffffff;
+
+  /* typography */
+  --font-family1: "Fraunces", sans-serif; 
+  --font-family2: "Manrope", sans-serif; 
+  --text-p1: 600 80px/100% var(--font-family1);
+  --text-p2: 600 56px/120% var(--font-family1);
+  --text-p3: 600 32px/120% var(--font-family1);
+  --text-p4: 400 18px/180% var(--font-family2);
+  --text-p5: 700 18px/150% var(--font-family2);
+}

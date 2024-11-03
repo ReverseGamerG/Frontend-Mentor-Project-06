@@ -1,0 +1,19 @@
+#nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 56px 160px 0;
+}
+
+#nav a{
+  font: var(--text-p5);
+  color: var(--text-color);
+  text-decoration-color: var(--green);
+  text-underline-offset: 8px;
+  text-decoration-thickness: 3px;
+  transition: color .8s;
+}
+
+#nav a:hover{
+  color: var(--green);
+}
